@@ -9,6 +9,7 @@
 \usepackage{hyperref}
 \usepackage{xltabular}
 \usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{outlines}
 
 \setlist[itemize]{leftmargin=*}
@@ -22,7 +23,7 @@
 \newcommand\clink[1]{{\usefont{T1}{lmtt}{m}{n} #1 }}
 \pagenumbering{gobble}
 \newenvironment{csection}[2]{
-    \textbf{#1} 
+    \textcolor{RoyalBlue}{\textbf{#1}} 
     \vspace{0.15cm} 
     \hrule 
     {#2}
